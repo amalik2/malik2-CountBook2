@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Adil\.android\build-cache\6df21e5cfd5c2f2651779e774a3f2a5dcc924a9e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\pre-dexed\debug\classes_2e045d5d0b723fd984f8999550524f6510565f96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Adil\.android\build-cache\489dffcb89460dee303e3af5675c60480435929f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\pre-dexed\debug\classes_bd70999644f0770d6f8fe17e8135184452a71b3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Adil\.android\build-cache\896d7e158b44d2a7ff11f08cf0075e08dea4b611\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\pre-dexed\debug\classes_2b000a05e0fb15b36b6441024c0c6650f94a4f6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Adil\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_1644b9aec63d9edd8c550f46395ee59e6c05e9fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Adil\.android\build-cache\58b39de6297575a820882b50e0edcb4feca31fcc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\pre-dexed\debug\classes_6de9c5b3944884f653daa6626c8a744dfcb2759a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="733125ebf11edf44965a2f8ee77a9f344462a873">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2140ad162217494e9c7c5b964019bc45c1df0327\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_be9a80c84e51404bee69581657150cc57a4f5e0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Adil\.android\build-cache\66f0ba0bbe36659d72487b93726a19291a9aaacb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\pre-dexed\debug\classes_3b7f79c7cc83eb6061510d0db4d858f6f467c5d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Adil\.android\build-cache\e9440e310b59a63c3c13c62953b5563f9d537ce1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\pre-dexed\debug\classes_10bf4865582c82fd6b401e3da9f5e5c2da345f9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Adil\.android\build-cache\e7b5c533d13576bfaed4946fe16e5097e126acf5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\pre-dexed\debug\classes_e4c0adb3b1d18877bdf3651c4c71bfa3a71c7c15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Adil\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_33417584ea143b16e5a8c90c25d9fc5ed6928929.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Adil\.android\build-cache\f01fa4d2c17b1133624afedc4ff336a455b29046\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\pre-dexed\debug\classes_b70926bde60cdcd017e3218dcbc98115ea15525e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Adil\.android\build-cache\a710cf1cc951662b9c57ab76c4255330beb90e5e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\pre-dexed\debug\classes_13458dd5770e56e3ae70c1d36b1700470e67523e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Adil\.android\build-cache\bf30f3f502ce3a745b2a35aa4a36560c2af67336\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Adil\AndroidStudioProjects\CountBook\app\build\intermediates\pre-dexed\debug\classes_cc7178f2fd15c543f4bf0fc1a25f3f999956c3d0.jar" />
+    </item>
+
+</items>

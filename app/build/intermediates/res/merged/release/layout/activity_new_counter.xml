@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adil.countbook.NewCounterActivity">
+
+    <EditText
+        android:id="@+id/descEditableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="119dp"
+        android:ems="10"
+        android:inputType="textShortMessage"
+        android:maxLength="1000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/valueEditableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="17"
+        android:singleLine="false"
+        android:text="0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descConstantText"
+        android:layout_width="118dp"
+        android:layout_height="27dp"
+        android:text="Description:"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="135dp" />
+
+    <TextView
+        android:id="@+id/invalidNameText"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="231dp"
+        android:text="ERROR: Name can't be empty"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/valueConstantText"
+        android:layout_width="85dp"
+        android:layout_height="29dp"
+        android:text="Value:"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="82dp" />
+
+    <TextView
+        android:id="@+id/nameConstantText"
+        android:layout_width="85dp"
+        android:layout_height="29dp"
+        android:text="Name:"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/nameEditableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="300"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="99dp"
+        android:layout_marginLeft="46dp"
+        android:onClick="onFinishClicked"
+        android:text="Finish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="99dp"
+        android:layout_marginRight="93dp"
+        android:onClick="onCancelClicked"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>
