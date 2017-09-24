@@ -129,7 +129,7 @@ public class Counter implements Serializable {
 
     @Override
     public String toString() {
-        return name + " (" + comment + "). Current Value = " + currentValue;
+        return name + " (" + currentValue + ")         - " + getDate();
     }
 
     public String getDescription(){

@@ -96,4 +96,43 @@ public class CounterDetailsActivity extends AppCompatActivity {
         finish();
     }
 
+    /**
+     * Increase the counter's current value by 1
+     * @param view
+     */
+    public void onIncreaseButtonClicked(View view){
+        // The current value EditText was changed, so apply this to the counter
+        long textValue = Long.valueOf(currentValueText.getText().toString());
+        if (textValue != counter.getCurrentValue())
+            counter.setCurrentValue(textValue);
+        counter.increment();
+        currentValueText.setText(String.valueOf(counter.getCurrentValue()));
+    }
+
+    /**
+     * Decrease the counter's current value by 1
+     * @param view
+     */
+    public void onDecreaseButtonClicked(View view){
+        // The current value EditText was changed, so apply this to the counter
+        long textValue = Long.valueOf(currentValueText.getText().toString());
+        if (textValue != counter.getCurrentValue())
+            counter.setCurrentValue(textValue);
+        counter.decrement();
+        currentValueText.setText(String.valueOf(counter.getCurrentValue()));
+    }
+
+    /**
+     * Reset the counter's current value to the initial value
+     * @param view
+     */
+    public void onResetButtonClicked(View view){
+        // The initial value EditText was changed, so apply this to the counter
+        long textValue = Long.valueOf(initialValueText.getText().toString());
+        if (textValue != counter.getInitialValue())
+            counter.setInitialValue(textValue);
+        counter.resetValue();
+        currentValueText.setText(String.valueOf(counter.getCurrentValue()));
+    }
+
 }

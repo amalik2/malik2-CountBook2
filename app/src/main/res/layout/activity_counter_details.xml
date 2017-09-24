@@ -8,12 +8,24 @@
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 
+    <Button
+        android:id="@+id/decreaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="138dp"
+        android:layout_marginLeft="223dp"
+        android:background="@android:color/holo_red_dark"
+        android:onClick="onDecreaseButtonClicked"
+        android:text="Decrease"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
     <TextView
         android:id="@+id/detailsInvalidNameText"
         android:layout_width="270dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="155dp"
-        android:layout_marginLeft="46dp"
+        android:layout_marginBottom="212dp"
+        android:layout_marginLeft="65dp"
         android:text="ERROR: Name can't be empty"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -168,6 +180,29 @@
         android:layout_marginStart="29dp"
         android:text="Last Edited At:"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/increaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="138dp"
+        android:layout_marginLeft="46dp"
+        android:background="@android:color/holo_green_light"
+        android:onClick="onIncreaseButtonClicked"
+        android:text="Increase"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="138dp"
+        android:layout_marginLeft="135dp"
+        android:onClick="onResetButtonClicked"
+        android:text="Reset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
 
