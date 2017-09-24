@@ -1,6 +1,7 @@
 package com.example.adil.countbook;
 
 import java.io.Serializable;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -12,7 +13,7 @@ import java.util.Date;
 public class Counter implements Serializable {
 
     // Max and min values that currentValue can be
-    private static final long MIN_VALUE = 0, MAX_VALUE = 99999999999999999l;
+    private static final long MIN_VALUE = 0, MAX_VALUE = 99999999999999999L;
 
     private String name;
     private Date date; // When the counter was made or the current value was last changed
@@ -45,9 +46,13 @@ public class Counter implements Serializable {
         name = newName;
     }
 
-    // Get when the counter was made or when the current value was last changed
+    /**
+     * Get when the counter was made or when the current value was last changed
+     * @return the date in yyyy-mm-dd format
+     */
     public String getDate(){
-        return date.toString();
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        return format.format(date);
     }
 
     /**
