@@ -12,37 +12,40 @@
         android:id="@+id/decreaseButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="138dp"
-        android:layout_marginLeft="223dp"
         android:background="@android:color/holo_red_dark"
         android:onClick="onDecreaseButtonClicked"
         android:text="Decrease"
+        android:layout_marginRight="66dp"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_marginBottom="138dp" />
 
     <TextView
         android:id="@+id/detailsInvalidNameText"
         android:layout_width="270dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="212dp"
-        android:layout_marginLeft="65dp"
         android:text="ERROR: Name can't be empty"
         android:textSize="18sp"
         android:textStyle="bold"
         android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginStart="46dp" />
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="203dp"
+        app:layout_constraintHorizontal_bias="0.224" />
 
     <TextView
         android:id="@+id/dateDynamicText"
         android:layout_width="223dp"
         android:layout_height="21dp"
-        android:layout_marginBottom="26dp"
         android:layout_marginEnd="26dp"
-        android:layout_marginRight="0dp"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="36dp"
+        android:layout_marginRight="28dp"
         app:layout_constraintRight_toRightOf="parent" />
 
     <EditText
@@ -50,100 +53,84 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="188dp"
         android:ems="10"
         android:inputType="textShortMessage"
         android:maxLength="1000"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="198dp"
+        app:layout_constraintHorizontal_bias="0.527" />
 
     <EditText
         android:id="@+id/valueEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="75dp"
         android:ems="10"
         android:inputType="number"
         android:maxLength="17"
         android:text="0"
+        android:layout_marginRight="16dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="89dp" />
 
     <EditText
         android:id="@+id/currentValueEditableText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="137dp"
         android:ems="10"
         android:inputType="number"
         android:maxLength="17"
         android:text="0"
+        android:layout_marginRight="16dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="137dp" />
 
     <TextView
         android:id="@+id/currentValueText"
         android:layout_width="132dp"
         android:layout_height="29dp"
-        android:layout_marginLeft="29dp"
-        android:layout_marginTop="135dp"
         android:text="Current Value:"
         android:textSize="18sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/detailsNameText"
-        android:layout_marginStart="29dp" />
-
-    <TextView
-        android:id="@+id/detailsDescText"
-        android:layout_width="118dp"
-        android:layout_height="27dp"
+        android:layout_marginStart="29dp"
         android:layout_marginLeft="29dp"
-        android:text="Comment:"
-        android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="204dp"
-        android:layout_marginStart="29dp" />
+        android:layout_marginTop="151dp" />
 
     <TextView
         android:id="@+id/detailsValueText"
         android:layout_width="132dp"
         android:layout_height="29dp"
-        android:layout_marginLeft="29dp"
-        android:layout_marginTop="73dp"
         android:text="Initial Value:"
         android:textSize="18sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/detailsNameText"
-        android:layout_marginStart="29dp" />
-
-    <TextView
-        android:id="@+id/detailsNameText"
-        android:layout_width="85dp"
-        android:layout_height="29dp"
-        android:text="Name:"
-        android:textSize="18sp"
-        android:layout_marginLeft="28dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="28dp" />
+        android:layout_marginTop="103dp" />
 
     <EditText
         android:id="@+id/nameEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="83dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:maxLength="300"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -153,11 +140,11 @@
         android:layout_height="wrap_content"
         android:onClick="onDeleteButtonClicked"
         android:text="Delete"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="76dp"
-        android:layout_marginRight="87dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="95dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginEnd="87dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="76dp" />
 
     <Button
         android:id="@+id/detailsFinishButton"
@@ -165,45 +152,48 @@
         android:layout_height="wrap_content"
         android:onClick="onFinishButtonClicked"
         android:text="Finish"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="76dp"
-        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="61dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginStart="65dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="76dp" />
 
     <TextView
         android:id="@+id/dateText"
         android:layout_width="104dp"
         android:layout_height="21dp"
-        android:layout_marginBottom="26dp"
-        android:layout_marginLeft="31dp"
         android:layout_marginStart="29dp"
         android:text="Last Edited At:"
         android:textSize="16sp"
+        android:layout_marginLeft="31dp"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_marginBottom="36dp" />
 
     <Button
         android:id="@+id/increaseButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="138dp"
-        android:layout_marginLeft="46dp"
         android:background="@android:color/holo_green_light"
         android:onClick="onIncreaseButtonClicked"
         android:text="Increase"
+        android:layout_marginLeft="37dp"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_marginBottom="138dp" />
 
     <Button
         android:id="@+id/resetButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="138dp"
-        android:layout_marginLeft="135dp"
         android:onClick="onResetButtonClicked"
         android:text="Reset"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_marginBottom="138dp"
+        app:layout_constraintHorizontal_bias="0.446" />
 
 </android.support.constraint.ConstraintLayout>

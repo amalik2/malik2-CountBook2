@@ -178,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
             if (counter.getCurrentValue() != currentValue)
                 counter.setCurrentValue(currentValue);
             counter.setName(name);
-            counter.setDescription(desc);
+            counter.setComment(desc);
         }
         counterArrayAdapter.notifyDataSetChanged();
         saveCounters();

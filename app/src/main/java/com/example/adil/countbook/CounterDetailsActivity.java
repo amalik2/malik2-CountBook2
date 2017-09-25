@@ -61,7 +61,7 @@ public class CounterDetailsActivity extends AppCompatActivity {
 
         nameText.setText(counter.getName());
         initialValueText.setText(String.valueOf(counter.getInitialValue()));
-        descText.setText(counter.getDescription());
+        descText.setText(counter.getComment());
         dateText.setText(counter.getDate());
         currentValueText.setText(String.valueOf(counter.getCurrentValue()));
     }

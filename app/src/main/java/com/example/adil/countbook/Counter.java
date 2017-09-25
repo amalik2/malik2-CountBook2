@@ -132,11 +132,11 @@ public class Counter implements Serializable {
         return name + ": " + currentValue + " (" + getDate() + ")";
     }
 
-    public String getDescription(){
+    public String getComment(){
         return comment;
     }
 
-    public void setDescription(String description){
+    public void setComment(String description){
         comment = description;
     }
 }
