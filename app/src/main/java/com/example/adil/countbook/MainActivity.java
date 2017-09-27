@@ -21,7 +21,7 @@ import java.util.List;
 
 /**
  * The main activity of the application.
- * Keeps track of all counters the user has created.
+ * Keeps track of all counters the user has created and displays them as a list.
  * It also passes information to other activities and handles their results.
  */
 public class MainActivity extends AppCompatActivity {
@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         loadCounters();
         countersList = (ListView)findViewById(R.id.countersList);
         countersList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
